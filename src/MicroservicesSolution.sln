@@ -1,4 +1,8 @@
-﻿Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{82B9EE78-1724-40E2-856F-368D66C77C1C}"
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{82B9EE78-1724-40E2-856F-368D66C77C1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB77CF9B-17A9-44E3-B6B2-A0C80D133E13}"
 	ProjectSection(SolutionItems) = preProject
@@ -8,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{DB0ECF91-D72D-4B1A-B220-3F6AB8D39295}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{ADCD20A5-1537-4B18-91E2-26FA7EAB4D7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{7EB2399E-52F6-4830-9664-F9934EAD39FA}"
 EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution

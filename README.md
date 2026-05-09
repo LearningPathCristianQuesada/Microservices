@@ -20,27 +20,12 @@ The goal of the project is to demonstrate:
 
 # Architecture
 
-```text
-Client
-   ↓
-API Gateway (Ocelot)
-   ↓             ↓
-ProductService   OrderService
-                      ↓
-             HTTP call to ProductService
-```
+<img width="962" height="1013" alt="image" src="https://github.com/user-attachments/assets/84c38269-616d-4dd0-af23-69736cdbd3f6" />
 
 ---
 
 # Project Structure
-
-```text
-MicroservicesSolution/
-│
-├── ProductService/
-├── OrderService/
-└── ApiGateway/
-```
+<img width="400" height="444" alt="image" src="https://github.com/user-attachments/assets/3a085126-ac06-4909-aeca-46e53961f4cd" />
 
 ---
 
@@ -126,10 +111,8 @@ Three applications must run simultaneously:
 ```http
 GET http://localhost:5000/api/products
 ```
+<img width="1305" height="395" alt="image" src="https://github.com/user-attachments/assets/2ecb4bcf-9d5d-4608-865f-26d09a1d4bfa" />
 
-### Screenshot
-
-> Add screenshot here
 
 ---
 
@@ -149,10 +132,7 @@ POST http://localhost:5000/api/products
   "price": 900
 }
 ```
-
-### Screenshot
-
-> Add screenshot here
+<img width="1280" height="386" alt="image" src="https://github.com/user-attachments/assets/d0f029d5-5bb8-4086-951d-6ef6d1c92877" />
 
 ---
 
@@ -177,36 +157,4 @@ POST http://localhost:5000/api/orders
 
 - Order created successfully
 - TotalPrice calculated automatically
-
-### Screenshot
-
-> Add screenshot here
-
----
-
-# 4. Create Invalid Order
-
-### Request
-
-```http
-POST http://localhost:5000/api/orders
-```
-
-### Body
-
-```json
-{
-  "productId": 999,
-  "quantity": 2
-}
-```
-
-### Expected Result
-
-- Error response because product does not exist
-
-### Screenshot
-
-> Add screenshot here
-
----
+<img width="1280" height="386" alt="image" src="https://github.com/user-attachments/assets/5aa61b9f-266e-4007-9878-c63e591bfd08" />
